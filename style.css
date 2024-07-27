@@ -1,0 +1,36 @@
+y {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+#map {
+    height: 90vh;
+    width: 100%;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    background-color: peachpuff;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: crimson;
+}
